@@ -1,0 +1,9 @@
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print(b)
+        a = 1
+        b = a+b
+    
+fib(1000)
+//this definition on pyhon  causes the PC to freeze   copy all from the line 8 (TRY)
